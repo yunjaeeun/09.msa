@@ -1,10 +1,9 @@
 package com.sixcandoit.userservice.vo;
 
-import lombok.*;
+import lombok.Data;
 
 @Data
-public class RequestUser {
-    private String name;
+public class RequestLogin {
     private String email;
     private String pwd;
 }
